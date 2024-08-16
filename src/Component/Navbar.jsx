@@ -3,9 +3,10 @@ import logo from '../assets/Logo.png'
 import { IoIosArrowDown } from "react-icons/io";
 import Button from '../Layout/Button';
 import Buttonsecond from '../Layout/Buttonsecond';
+import Baner from './Baner';
 const Navbar = () => {
   return (
- <div  className='bg-covers bg-no-repeat bg-cover bg-center'>
+ <div  className='bg-covers bg-no-repeat bg-cover bg-center h-screen' >
      <div className='max-w-container mx-auto py-8'>
        <div className='flex'>
        <div className='w-1/5'>
@@ -38,6 +39,8 @@ const Navbar = () => {
         </div>
        </div>
     </div>
+
+    <Baner/>
  </div>
   )
 }

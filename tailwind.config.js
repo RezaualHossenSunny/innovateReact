@@ -15,6 +15,7 @@ export default {
       },
       colors: {
         comon: '#43E7DF',
+        second:"#2C2643"
       },
     },
   },
