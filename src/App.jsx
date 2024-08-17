@@ -1,3 +1,4 @@
+import Business from "./Component/Business"
 import Navbar from "./Component/Navbar"
 import Platfrom from "./Component/Platfrom"
 
@@ -9,6 +10,7 @@ function App() {
     <>
     <Navbar/>
     <Platfrom/>
+    <Business/>
     </>
   )
 }

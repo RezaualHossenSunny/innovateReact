@@ -16,7 +16,8 @@ export default {
       colors: {
         comon: '#43E7DF',
         second:"#2C2643",
-        gray:"#645E76"
+        gray:"#645E76",
+        blue:"#3639A4"
       },
       fontFamily: {
         chirvo: ['Chivo", sans-serif'],

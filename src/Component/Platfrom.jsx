@@ -8,7 +8,7 @@ import pic5 from '../assets/v2.png'
 const Platfrom = () => {
   return (
     <div>
-        <div  className='py-[350px] max-w-container mx-auto'>
+        <div  className='mt-[450px] max-w-container mx-auto'>
             <div className='flex justify-between'>
                 <div className='w-6/12'>
                 <h1 className='text-second text-5xl font-bold  w-[504px] font-Chivo'>How simple is it to use our platform?</h1>
