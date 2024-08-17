@@ -1,5 +1,6 @@
 import Apps from "./Component/Apps"
 import Business from "./Component/Business"
+import Customer from "./Component/Customer"
 import Navbar from "./Component/Navbar"
 import Platfrom from "./Component/Platfrom"
 import Works from "./Component/works"
@@ -15,6 +16,7 @@ function App() {
     <Business/>
     <Apps/>
     <Works/>
+    <Customer/>
     </>
   )
 }
