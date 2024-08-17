@@ -15,8 +15,13 @@ export default {
       },
       colors: {
         comon: '#43E7DF',
-        second:"#2C2643"
+        second:"#2C2643",
+        gray:"#645E76"
       },
+      fontFamily: {
+        chirvo: ['Chivo", sans-serif'],
+       
+      }
     },
   },
   plugins: [],

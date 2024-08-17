@@ -1,4 +1,5 @@
 import Navbar from "./Component/Navbar"
+import Platfrom from "./Component/Platfrom"
 
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
   return (
     <>
     <Navbar/>
-    
+    <Platfrom/>
     </>
   )
 }
