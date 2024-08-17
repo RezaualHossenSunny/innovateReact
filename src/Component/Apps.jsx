@@ -32,7 +32,7 @@ const Apps = () => {
 
                 <div className='w-2/4'>
                 <div className='flex justify-between'>
-                <img src={brand1}/>
+                <img  src={brand1}/>
                 <img src={brand2}/>
                 </div>
 
