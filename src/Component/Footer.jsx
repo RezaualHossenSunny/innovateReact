@@ -6,10 +6,15 @@ import { FaTelegramPlane } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className='bg-[#F7F7FC] mt-24'>
-        <div className='max-w-container mx-auto py-24  '>
-            <div className='flex justify-between'>
+        <div className='max-w-container mx-auto  py-4 md:py-24  '>
+            {/* content */}
 
-                <div className='w-1/5'>
+
+            <div className=' md:flex justify-between p-4 md:p-0 '>
+
+                {/* 1st content */}
+
+                <div className=' w-full md:w-1/5'>
 
                 <img src={logo}/>
                 <p className='text-lg font-chirvo text-gray mt-4 font-normal'>Build a modern and creative website with Innovate.</p>
@@ -27,8 +32,8 @@ const Footer = () => {
                 </div>
 
 
-
-                <div className='w-1/5 ml-20'>
+                   {/* 2nd content */}
+                <div className=' w-full md:w-1/5  mt-6 md:mt-0  ml-0 md:ml-20'>
                  <h1 className='text-lg font-chirvo font-medium text-second'>Product</h1>
 
                  <p className='mt-5 text-gray'>Landingpages</p>
@@ -38,8 +43,8 @@ const Footer = () => {
                 </div>
 
 
-
-                <div className='w-1/5 '>
+  {/* 3rd  content */}
+                <div className=' w-full md:w-1/5 mt-6 md:mt-0  '>
                  <h1 className='text-lg font-chirvo font-medium text-second'>Company</h1>
 
                  <p className='mt-5 text-gray'>About</p>
@@ -49,8 +54,8 @@ const Footer = () => {
                  <p className='mt-2 text-gray'>Contact</p>
                 </div>
 
-
-                <div className='w-1/5'>
+  {/* 4th content */}
+                <div className='w-full md:w-1/5 mt-6 md:mt-0'>
                  <h1 className='text-lg font-chirvo font-medium text-second'>Resources</h1>
 
                  <p className='mt-5 text-gray'>Landingpages</p>
@@ -59,14 +64,17 @@ const Footer = () => {
                  <p className='mt-2 text-gray'>Features</p>
                 </div>
 
-                 <div className='w-1/5 '>
+                
+                  {/* 5th content */}
+
+                 <div className='w-full md:w-1/5 mt-6 md:mt-0 '>
                  <h1 className='text-lg font-chirvo font-medium text-second'>Get Latest Updates</h1>
 
                  <p className='text-lg font-chirvo text-gray mt-4 font-normal w-[285px]'>Subscribe to our newsletter and get many interesting things every week</p>
 
                  <div className='mt-7 relative'>
                     <input className='w-[269px]  py-4 px-4 border-gray rounded-xl border-2 outline-0'/>
-                    <FaTelegramPlane  className='absolute  top-5 right-8 text-white bg-blue text-2xl '/>
+                    <FaTelegramPlane  className='absolute  top-5  right-16 md:right-8 text-white bg-blue text-2xl '/>
 
                  </div>
 
