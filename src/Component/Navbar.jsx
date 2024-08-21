@@ -47,7 +47,7 @@ const Navbar = () => {
         </div>
 
 
-
+{/* responcive */}
         <div className=' md:hidden'>
 
 
