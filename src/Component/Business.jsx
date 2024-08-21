@@ -6,15 +6,28 @@ import icon3 from '../assets/Security.png'
 const Business = () => {
   return (
     <div>
-        <div className='max-w-container mx-auto py-8 flex justify-between'>
-            <div className='w-2/4'>
+        <div className='max-w-container mx-auto py-8  md:flex justify-between'>
+
+               {/* part one */}
+
+            <div className=' w-full md:w-2/4 p-2 md:p-0'>
             <img src={buis}/>
             </div>
-            <div className='w-2/4 ml-[163px]'>
-            <h1 className='font-chirvo font-bold text-5xl text-second w-[553px]'>We provide features for your Business</h1>
 
-            <div className='flex justify-between mt-[80px] gap-x-14' >
-                <div className='w-2/4'>
+
+                  {/* part two */}
+            <div className=' w-full md:w-2/4 ml-[20px] md:ml-[163px]'>
+            <h1 className='font-chirvo font-bold  text-3xl md:text-5xl text-second w-full md:w-[553px] p-4 md:p-0'>We provide features for your Business</h1>
+                
+
+                {/* content */}
+
+
+            <div className=' md:flex justify-between  mt-[20px] md:mt-[80px] gap-x-14' >
+
+                {/* 1st content */}
+
+                <div className='  w-full md:w-2/4 p-4 md:p-0'>
                 <div>
                     <img src={icon1}/>
                     <h3 className='font-chirvo text-xl font-bold py-3'>Fast and Easy to use</h3>
@@ -34,8 +47,10 @@ const Business = () => {
 
 
                 </div>
+                 
+                 {/* 2nd content */}
 
-                <div className='w-2/4'>
+                <div className=' w-full md:w-2/4 p-4 md:p-0'>
 
                 <div>
                     <img src={icon3}/>
@@ -45,8 +60,8 @@ const Business = () => {
                 </div>
 
 
-                <div className='py-4 px-10 border-2 bg-blue rounded-md w-[196px]  mt-[90px] border-white'>
-        <p className='text-white text-lg font-medium text-center'>Get Started</p>
+                <div className='py-4 px-10 border-2 bg-blue rounded-md w-[196px]  mt-[20px] md:mt-[90px] border-white'>
+        <p className='text-white  text-sm md:text-lg font-medium text-center'>Get Started</p>
 
 
         
