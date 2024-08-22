@@ -16,7 +16,7 @@ function App() {
 
 
   return (
-    <>
+    <div className="overflow-x-hidden">
     <Navbar/>
     <Platfrom/>
     <Business/>
@@ -27,7 +27,7 @@ function App() {
     <Contacet/>
     <Footer/>
    
-    </>
+    </div>
   )
 }
 
