@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react'
 import group1 from "../assets/g1.png";
 import group2 from "../assets/g2.png";
 import group3 from "../assets/g3.png";
 import group4 from "../assets/g4.png";
 import { FaArrowRight } from "react-icons/fa";
-const Works = () => {
+const Work = () => {
   return (
     <div>
       <div className="max-w-container mx-auto py-24">
@@ -113,7 +113,7 @@ const Works = () => {
 </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Works;
+export default Work

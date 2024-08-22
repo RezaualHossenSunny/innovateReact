@@ -7,7 +7,9 @@ import Footer from "./Component/Footer"
 import Navbar from "./Component/Navbar"
 import Platfrom from "./Component/Platfrom"
 import Pricing from "./Component/Pricing"
-import Works from "./Component/works"
+import Work from "./Component/Work"
+
+
 
 
 function App() {
@@ -19,7 +21,7 @@ function App() {
     <Platfrom/>
     <Business/>
     <Apps/>
-    <Works/>
+     <Work/>
     <Customer/>
     <Pricing/>
     <Contacet/>
