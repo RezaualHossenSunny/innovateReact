@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../assets/logo.png'
+import logo1 from '../assets/Logo.png'
 import { FaGofore } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaTelegramPlane } from "react-icons/fa";
@@ -16,7 +16,7 @@ const Footer = () => {
 
                 <div className=' w-full md:w-1/5'>
 
-                <img src={logo}/>
+                <img src={logo1}/>
                 <p className='text-lg font-chirvo text-gray mt-4 font-normal'>Build a modern and creative website with Innovate.</p>
 
                 <div className='flex mt-5 gap-5'>
